@@ -104,7 +104,7 @@ class _OtpTextFieldState extends State<OtpTextField> {
     });
 
     _verificationCode = List<String?>.filled(widget.numberOfFields, null);
-    _focusNodes = List<FocusNode?>.filled(widget.numberOfFields, null);
+    // _focusNodes = List<FocusNode?>.filled(widget.numberOfFields, null); // Remove this line
     _textControllers = List<TextEditingController?>.filled(
       widget.numberOfFields,
       null,
